@@ -1,0 +1,526 @@
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.addMissingImports": true,
+    "source.organizeImports": true
+  },
+  "editor.cursorSurroundingLines": 5,
+  "editor.fontWeight": "300",
+  "editor.formatOnSave": true,
+  "editor.lineNumbers": "relative",
+  "editor.linkedEditing": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.suggest.insertMode": "replace",
+  "editor.suggestFontSize": 14,
+  "editor.wordWrap": "on",
+  "errorLens.fontStyleItalic": true,
+  "everforest.italicKeywords": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "extensions.autoUpdate": "onlyEnabledExtensions",
+  "extensions.ignoreRecommendations": false,
+  "prettier.semi": true,
+  "prettier.singleAttributePerLine": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "projectManager.git.baseFolders": [
+    "$home/workspace"
+  ],
+  "projectManager.sortList": "Recent",
+  "sortJSON.orderOverride": [
+    "name",
+    "version",
+    "main",
+    "module",
+    "types",
+    "typings",
+    "files",
+    "publishConfig",
+    "repository",
+    "scripts",
+    "prefix",
+    "description",
+    "body"
+  ],
+  "sortJSON.orderUnderride": [
+    "resolutions",
+    "dependencies",
+    "devDependencies",
+    "peerDependencies",
+    "cSpell.userWords"
+  ],
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "update.showReleaseNotes": false,
+  "zenMode.hideLineNumbers": false,
+  "editor.guides.bracketPairs": true,
+  "extensions.autoCheckUpdates": false,
+  "editor.suggestSelection": "first",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "files.associations": {
+    "*.js": "javascript",
+    "*.jsx": "javascriptreact",
+    "*.wxss": "css",
+    "*.wxml": "html"
+  },
+  "[css]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.idea": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/dist/public": true,
+    "**/tmp": true,
+    "**/tags": true,
+    "**/public/dist": true,
+    "**/.vscode": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "search.followSymlinks": false,
+  //  Go language settings
+  "go.formatTool": "gofmt",
+  "go.useLanguageServer": true,
+  "[go]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    },
+    // Optional: Disable snippets, as they conflict with completion ranking.
+    "editor.snippetSuggestions": "none",
+  },
+  "[go.mod]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "gopls": {
+    // Add parameter placeholders when completing a function.
+    "usePlaceholders": true,
+    // If true, enable additional analyses with staticcheck.
+    // Warning: This will significantly increase memory usage.
+    "staticcheck": true,
+    "completeUnimported": true, // autocomplete unimported packages
+    "deepCompletion": true, // enable deep completion
+    "codelenses": {
+      "gc_details": true,
+    }
+  },
+  "go.lintFlags": [
+    "-checks=all"
+  ],
+  "go.toolsManagement.autoUpdate": true,
+  "editor.mouseWheelZoom": true,
+  "terminal.integrated.tabs.enabled": true,
+  // python
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+  },
+  "python.formatting.autopep8Args": [
+    "--max-line-length",
+    "120",
+    "--aggressive",
+    "--aggressive",
+    "--in-place",
+  ],
+  "python.languageServer": "Pylance",
+  "liveshare.presence": false,
+  "workbench.editor.enablePreview": false,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.guides.indentation": false,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "all",
+  "editor.inlineSuggest.enabled": true,
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  "editor.cursorBlinking": "smooth",
+  "workbench.startupEditor": "none",
+  "window.restoreWindows": "none",
+  //关于vim的配置文件
+  "vim.foldfix": true,
+  "vim.commandLineModeKeyBindingsNonRecursive": [],
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "k",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    },
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<space>"
+      ],
+      "commands": [
+        "whichkey.show"
+      ]
+    },
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      // which key
+      "before": [
+        "<leader>"
+      ],
+      "commands": [
+        "whichkey.show"
+      ]
+    },
+    {
+      "before": [
+        "<tab>"
+      ],
+      "commands": [
+        "workbench.action.nextEditor"
+      ]
+    },
+    {
+      "before": [
+        "<S-tab>"
+      ],
+      "commands": [
+        "workbench.action.previousEditor"
+      ]
+    },
+    {
+      // show help doc when press K
+      "before": [
+        "K"
+      ],
+      "commands": [
+        "editor.action.showHover"
+      ]
+    },
+    {
+      // undo
+      "before": [
+        "u"
+      ],
+      "commands": [
+        "undo"
+      ]
+    },
+    {
+      // redo
+      "before": [
+        "U"
+      ],
+      "commands": [
+        "redo"
+      ]
+    },
+    {
+      // use Tab show next buffer 
+      "before": [
+        "<TAB>"
+      ],
+      "commands": [
+        ":bn"
+      ]
+    },
+    {
+      // vs -> vertical split
+      "before": [
+        "v",
+        "s"
+      ],
+      "commands": [
+        ":vs"
+      ]
+    },
+    {
+      // ca -> code action 
+      "before": [
+        "c",
+        "a"
+      ],
+      "commands": [
+        "editor.action.quickFix"
+      ]
+    },
+    {
+      // sp -> split
+      "before": [
+        "s",
+        "p"
+      ],
+      "commands": [
+        ":sp"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "b"
+      ],
+      "commands": [
+        "workbench.action.navigateToLastEditLocation"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "i"
+      ],
+      "commands": [
+        "editor.action.goToImplementation",
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "m"
+      ],
+      "commands": [
+        "workbench.action.gotoSymbol"
+      ]
+    },
+    {
+      // back 
+      "before": [
+        "g",
+        "h"
+      ],
+      "commands": [
+        "workbench.action.navigateBack",
+      ]
+    },
+    {
+      // forward
+      "before": [
+        "g",
+        "l"
+      ],
+      "commands": [
+        "workbench.action.navigateForward",
+      ]
+    },
+    {
+      // ]d -> next error/warning/...
+      "before": [
+        "]",
+        "d"
+      ],
+      "commands": [
+        "editor.action.marker.next"
+      ]
+    },
+    {
+      // [d -> previos error/warning/...
+      "before": [
+        "[",
+        "d"
+      ],
+      "commands": [
+        "editor.action.marker.prev"
+      ]
+    },
+    {
+      "before": [
+        "X",
+      ],
+      "commands": [
+        ":nohl",
+      ]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.smartRelativeLine": true,
+  "vim.surround": true,
+  "vim.sneak": true,
+  "vim.useSystemClipboard": true,
+  "vim.hlsearch": true,
+  "vim.ignorecase": true,
+  "vim.useCtrlKeys": true,
+  "vim.highlightedyank.color": "rgba(230, 97, 89, 0.7)",
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.textColor": "white",
+  "vim.handleKeys": {
+    "<C-a>": false,
+  },
+  "vim.easymotion": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "remote.SSH.remotePlatform": {
+    "rlogin.cs.vt.edu": "linux"
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.fontFamily": "'Fira Code', '宋体'",
+  "editor.fontSize": 16,
+  "debug.console.fontFamily": "'Fira Code', '宋体'",
+  "terminal.integrated.fontFamily": "'3270Medium Nerd Font Mono', '宋体'",
+  "terminal.integrated.fontSize": 16,
+  "editor.fontLigatures": true, // === !==
+  "editor.lineHeight": 1.6,
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": "on"
+  },
+  // "files.autoSave": "afterDelay",
+  // "files.autoSaveDelay": 1000, !=
+  "C_Cpp.clang_format_fallbackStyle": "Google",
+  "editor.tabSize": 2,
+  "window.menuBarVisibility": "toggle",
+  "window.titleBarStyle": "custom",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "better-comments.tags": [
+    {
+      // 未完成的代码
+      "tag": "TODO",
+      "color": "#fa973a",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      // 表示代码需要修正
+      "tag": "FIXME",
+      "color": "#ff0000",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      // 提示
+      "tag": "HINT",
+      "color": "#2faf64",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      // 描述代码作用
+      "tag": "NOTE",
+      "color": "#00b7e4",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      // 表示之后可能会出现问题
+      "tag": "HACK",
+      "color": "#fa973a",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      // 表示这里有问题
+      "tag": "BUG",
+      "color": "#ff0000",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  // code runner
+  "code-runner.saveAllFilesBeforeRun": true,
+  "code-runner.runInTerminal": true,
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "c": "cd $dir && gcc $fileName -o bin\\$fileNameWithoutExt && cd bin && .\\$fileNameWithoutExt",
+    "cpp": "cd $dir && g++ $fileName -o bin\\$fileNameWithoutExt && cd bin && .\\$fileNameWithoutExt",
+    "python": "python -u",
+    "ruby": "ruby",
+    "go": "go run",
+    "shellscript": "bash",
+    "ocaml": "ocaml",
+    "applescript": "osascript",
+    "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+    "scheme": "csi -script",
+    "haskell": "runhaskell",
+    "lisp": "sbcl --script",
+    "sml": "cd $dir && sml $fileName"
+  },
+  // gitlens
+  "gitlens.defaultDateFormat": "YYYY-MM-DD hh:mm:ss",
+  "gitlens.defaultDateShortFormat": "YYYY-MM-DD",
+  // cpp reference
+  "cppref.lang": "en",
+  "cppref.searchEngine": "Google",
+  // doxygen documenation generator
+  // C/C++
+  "C_Cpp.default.cppStandard": "c++23",
+  "C_Cpp.default.cStandard": "c17",
+  "C_Cpp.inlayHints.autoDeclarationTypes.enabled": true,
+  "C_Cpp.inlayHints.parameterNames.enabled": true,
+  "C_Cpp.inlayHints.parameterNames.suppressWhenArgumentContainsName": false,
+  "C_Cpp.inlayHints.parameterNames.hideLeadingUnderscores": false,
+  "C_Cpp.inlayHints.referenceOperator.enabled": true,
+  "C_Cpp.inlayHints.referenceOperator.showSpace": true,
+  "C_Cpp.clang_format_path": "/usr/bin/clang-format",
+  "C_Cpp.clang_format_style": "Google",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.gpuAcceleration": "off",
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "cmake.configureOnOpen": true,
+  "window.commandCenter": false,
+  "redhat.telemetry.enabled": true,
+  "haskell.manageHLS": "GHCup",
+  "haskell.serverExecutablePath": "~/.ghcup/bin/haskell-language-server-wrapper",
+  "git.autofetch": true,
+  "terminal.integrated.inheritEnv": false,
+  "workbench.iconTheme": "vs-nomo-dark",
+  "workbench.productIconTheme": "icons-carbon",
+  "workbench.colorTheme": "Dracula Soft",
+  "workbench.layoutControl.enabled": false,
+  "window.zoomLevel": -1,
+  "files.trimTrailingWhitespace": false,
+}

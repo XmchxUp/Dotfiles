@@ -1,0 +1,95 @@
+let mapleader=" "
+
+""" Common settings -------------------------
+set showmode
+set so=5
+set incsearch
+set nu
+
+
+"" -- Suggested options --
+" Show a few lines of context around the cursor. Note that this makes the
+" text scroll if you mouse-click near the start or end of the window.
+set scrolloff=5
+
+" Do incremental searching.
+set incsearch
+
+" Don't use Ex mode, use Q for formatting.
+map Q gq
+
+" --- Enable IdeaVim plugins https://jb.gg/ideavim-plugins
+
+" Highlight copied text
+Plug 'machakann/vim-highlightedyank'
+" Commentary plugin
+Plug 'tpope/vim-commentary'
+
+
+nnoremap <C-w> :w<CR>:bd<CR>
+""" Idea specific settings ------------------
+set ideajoin
+set ideastatusicon=gray
+set idearefactormode=keep
+
+
+""" Mappings --------------------------------
+map <leader>r <Action>(RenameElement)
+
+" inoremap jk <Esc>
+inoremap kj <Esc>
+
+nnoremap <Tab> gt
+nnoremap <S-Tab> gT
+
+nnoremap <Leader>o :action RecentProjectListGroup<CR>
+
+nnoremap K :action QuickJavaDoc<CR>
+nnoremap <C-q> :action ParameterInfo<CR>
+nnoremap ca :action ShowIntentionActions<CR>
+
+nnoremap <D-C-F> :action ReformatCode<CR>
+<!-- windows -->
+<!-- nnoremap <C-A-F> :action ReformatCode<CR> -->
+  
+
+nnoremap gb :action LastEditLocation<CR>
+nnoremap gi :action GotoImplementation<CR>
+nnoremap gm :action GotoSymbol<CR>
+nnoremap gh :action Back<CR>
+nnoremap gl :action Forward<CR>
+
+nnoremap ga :<C-u>action GotoAction<CR>
+nnoremap gc :<C-u>action GotoClass<CR>
+nnoremap gd :<C-u>action GotoDeclaration<CR>
+nnoremap gs :<C-u>action GotoSuperMethod<CR>
+nnoremap gf :<C-u>action GotoFile<CR>
+nnoremap gu :<C-u>action ShowUsages<CR>
+nnoremap gt :<C-u>action GotoTest<CR>
+nnoremap gp :<C-u>action FindInPath<CR>
+nnoremap gr :<C-u>action RecentFiles<CR>
+
+nnoremap ]d :action GotoNextError<CR>
+nnoremap [d :action GotoPreviousError<CR>
+
+nnoremap u :undo<CR>
+nnoremap U :redo<CR>
+nnoremap vs :vsplit<CR>
+nnoremap sp :split<CR>
+nnoremap X :noh<CR>
+
+
+nnoremap ta :action Annotate<cr>
+nnoremap tb :action ToggleLineBreakpoint<cr>
+nnoremap tm :action ToggleBookmark<cr>
+nnoremap tp :action ActivateProjectToolWindow<CR>
+
+
+nnoremap <Leader>\ <C-W>v
+nnoremap <Leader>- <C-W>s
+nnoremap <C-h> <C-W>h
+nnoremap <C-l> <C-W>l
+nnoremap <C-j> <C-W>j
+nnoremap <C-k> <C-W>k
+
+map <Leader>f <Action>(ReformatCode)
