@@ -1,4 +1,14 @@
 {
+  "[ocaml]": {
+    "editor.tabSize": 2,
+    "editor.rulers": [ 80 ],
+    "editor.formatOnSave": true
+  },
+  "[ocaml.interface]": {
+    "editor.tabSize": 2,
+    "editor.rulers": [ 80 ],
+    "editor.formatOnSave": true
+  },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
