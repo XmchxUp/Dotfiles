@@ -1,0 +1,24 @@
+[user]
+	email = 1394466835@qq.com
+	name = Xmchx
+	signingkey = DBC1B24BAF0117B4
+[commit]
+	gpgsign = true
+[tag]
+	gpgSign = true
+[init]
+	defaultBranch = main
+[core]
+	editor = vim
+[pull]
+	rebase = true
+	autoStash = true
+[color]
+	ui = auto
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[rebase]
+	autoStash = true
