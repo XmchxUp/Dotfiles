@@ -1,4 +1,4 @@
-# Cross-platform base configuration for Alacritty.
+# Windows-specific configuration for Alacritty.
 
 [[colors.indexed_colors]]
 index = 16
@@ -16,6 +16,9 @@ unfocused_hollow = true
 
 [cursor.style]
 shape = 'Beam'
+
+[terminal]
+shell = { program = "wsl.exe ~ -d Ubuntu-22.04" }
 
 [window]
 dynamic_padding = true

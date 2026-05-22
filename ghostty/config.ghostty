@@ -1,0 +1,14 @@
+theme = GruvboxDark
+font-family = JetBrains Mono
+font-size = 14
+background = #222222
+foreground = #fff4d2
+cursor-style = bar
+cursor-color = #665c54
+cursor-text = #bdae93
+window-padding-x = 5
+window-padding-y = 5
+window-padding-color = background
+mouse-hide-while-typing = true
+shell-integration = zsh
+macos-option-as-alt = true
