@@ -11,6 +11,7 @@
 - `ghostty/config.ghostty` -> Ghostty 用户配置
 - `Vscode/settings.json` -> VS Code 用户配置
 - `Vscode/keybindings.json.mac` / `Vscode/keybindings.json.windows` -> VS Code 平台快捷键
+- `omp/agent/RULES.md` -> `~/.omp/agent/RULES.md`（omp 的 always-apply 规则，主会话和子代理都会收到）
 
 ## 快速开始
 

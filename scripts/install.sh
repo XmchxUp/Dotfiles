@@ -230,6 +230,10 @@ install_ghostty() {
   install_file "$REPO_ROOT/ghostty/config.ghostty" "$(ghostty_target)"
 }
 
+install_omp() {
+  install_file "$REPO_ROOT/omp/agent/RULES.md" "$HOME/.omp/agent/RULES.md"
+}
+
 install_vscode() {
   local user_dir
   local keybindings_source=""
@@ -317,6 +321,7 @@ main() {
   install_tmux
   install_alacritty
   install_ghostty
+  install_omp
   install_vscode
 
   if [[ "$WITH_TOOLS" -eq 1 ]]; then

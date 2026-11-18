@@ -104,6 +104,11 @@ copy_back() {
     return
   fi
 
+  if [[ -L "$source" ]] && [[ "$(readlink "$source")" == "$target" ]]; then
+    log "already linked: $source"
+    return
+  fi
+
   cp "$source" "$target"
   log "synced $source -> $target"
 }
@@ -152,6 +157,7 @@ main() {
   copy_back "$HOME/.tmux.conf" "$REPO_ROOT/tmux.conf"
   copy_back "$(alacritty_source "$PLATFORM")" "$REPO_ROOT/alacritty.toml"
   copy_back "$(ghostty_source)" "$REPO_ROOT/ghostty/config.ghostty"
+  copy_back "$HOME/.omp/agent/RULES.md" "$REPO_ROOT/omp/agent/RULES.md"
   copy_back "$vscode_dir/settings.json" "$REPO_ROOT/Vscode/settings.json"
 
   if [[ "$PLATFORM" == "macos" ]]; then
